@@ -1,3 +1,9 @@
+# Use with cert/key
+
+```
+ ./wrk --clientcert ./cert.pem --clientkey ./cert.key -c 1 -t 1 -d 2s https://yoj-delete-me-perf.svc.asc-test.net/config/actuator/health
+```
+
 # wrk - a HTTP benchmarking tool
 
   wrk is a modern HTTP benchmarking tool capable of generating significant
